@@ -1,0 +1,3 @@
+Command line instructions for building this executable
+
+cd ../; rm -r build; mkdir build; cd build; cmake-DCMAKE_PREFIX_PATH=/home/paperspace/Documents/libs/libtorch-shared-with-deps-1.5.1+cu92/libtorch ..; make; ./simple_test ../../../../fldc.persistent-identifier.proto/classify_id/pytorch/fldc_pi_40_traced.pt
